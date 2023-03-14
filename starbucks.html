@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png+xml" href="./assets/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Hero Landing Page | Earl Villapaz</title>
+
+    <link rel="stylesheet" href="style/starbucks.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="./assets/logo.png" alt="starbucks-logo" class="header-logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What's new</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="contents">
+            <div class="textBox">
+                <h2><span>To inspire and nurture the human spirit -</span>
+                    <br> one person, one cup and one neighborhood at a time.
+                </h2>
+                <p>Starbucks is a multinational coffeehouse chain that offers premium coffee, tea, 
+                    and a variety of food items and snacks. With over 30,000 locations in more than 80 countries, 
+                    Starbucks is one of the world's largest coffeehouse chains.</p>
+                <a href="https://www.starbucks.com/" rel="referrer" target="_blank">Learn More</a>              
+            </div>
+            <div class="imgBox">
+                <img src="./assets/img1.png" alt="coffee-1" class="starbucks">
+            </div>
+        </div>
+
+        <ul class="color-variation">
+            <li><img src="./assets/thumb1.png" alt="thumb1" onclick="imgChanger('./assets/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="./assets/thumb2.png" alt="thumb2" onclick="imgChanger('./assets/img2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="./assets/thumb3.png" alt="thumb3" onclick="imgChanger('./assets/img3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="social-media">
+            <li><a href="https://www.facebook.com/StarbucksPhilippines" target="_blank" rel="referrer"><img src="./assets/facebook.svg" alt="facebook" class="icons" ></a></li>
+            <li><a href="https://www.instagram.com/starbucksph/" target="_blank" rel="referrer"><img src="./assets/instagram.svg" alt="instagram" class="icons"></a></li>
+            <li><a href="https://www.youtube.com/starbucks" target="_blank" rel="referrer"><img src="./assets/youtube.svg" alt="youtube" class="icons"></a></li>
+        </ul>
+    </section>
+    <script src="./js/starbucks.js"></script>
+</body>
+</html>
